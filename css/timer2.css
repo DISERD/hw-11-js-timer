@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.timer-card {
+    background-color: white;
+    padding: 12px 10px;
+    border-radius: 12px;
+    text-align: center;
+    width: 200px;
+    height: auto;
+}
+
+.timer-title {
+    font-size: 14px;
+    color: black;
+}
+
+.timer {
+    font-size: 40px;
+    font-weight: bold;
+    color: darkgrey;
+    padding-top: 10px;
+}
+
+.message {
+    font-size: 10px;
+    color: red;
+    font-weight: bold;
+    min-height: 24px;
+}
+
+.warning {
+    animation: rainbow 0.8s infinite linear;
+}
+
+@keyframes rainbow {
+    0% {
+        color: #ff0000;
+    }
+
+    /* Червоний */
+    20% {
+        color: #ff7f00;
+    }
+
+    /* Помаранчевий */
+    40% {
+        color: #f1c40f;
+    }
+
+    /* Жовтий */
+    60% {
+        color: #00ff00;
+    }
+
+    /* Зелений */
+    80% {
+        color: #8a2be2;
+    }
+
+    /* Фіолетовий */
+    100% {
+        color: #ff0000;
+    }
+}
+button {
+    margin-top: 10px;
+    padding: 8px 14px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    color: white;
+    background-color: red;
+    cursor: pointer;
+    transition: background-color 0.6s ease, color 0.6s ease;
+}
+
+button:disabled {
+    background-color: grey;
+    color: white;
+    cursor: not-allowed;
+}
