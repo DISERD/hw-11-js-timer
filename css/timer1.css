@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+
+}
+
+.timer-card {
+    background-color: white;
+    padding: 12px 10px;
+    border-radius: 12px;
+    text-align: center;
+    width: 200px;
+    height: auto;
+}
+
+.timer-title {
+    font-size: 14px;
+    color: black;
+}
+
+.timer {
+    font-size: 40px;
+    font-weight: bold;
+    color: darkgrey;
+    padding-top: 10px;
+}
+
+.message {
+    font-size: 10px;
+    color: red;
+    font-weight: bold;
+    min-height: 24px;
+}
